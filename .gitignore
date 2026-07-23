@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pdb
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Brian2 generated files
+*.brian2
+*.brian2.log
+
+# Figures (optional – remove if you want to track figures)
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Large data files (optional)
+*.npy
+*.npz
+*.h5
+
+# OS specific
+Thumbs.db
+.DS_Store
