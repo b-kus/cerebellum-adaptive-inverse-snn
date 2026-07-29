@@ -25,8 +25,7 @@ The core idea is to use the error signal from a PID controller as a **teaching s
 **Key takeaways:**
 - The PD + SNN model reduces steady-state error by **67%** compared to PD alone, demonstrating that the SNN can learn the gravity compensation torque online.
 - The pendulum **does not fully converge**, indicating that further tuning is needed.
-- PID + SNN performs worse than PID alone (+37% error), suggesting that stochastic spiking activity interferes with the integral term.
-
+- PID + SNN performs worse than PID alone (+37% error)
 ---
 
 ## Repository Structure
