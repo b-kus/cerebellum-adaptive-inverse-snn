@@ -8,7 +8,7 @@ The core idea is to use the error signal from a PID controller as a **teaching s
 
 ## Overview
 
-- **Goal:** Learn an inverse model of a 1-DOF pendulum online, compensating for a 50 ms transport delay.
+- **Goal:** Learn an inverse model of a 1-DOF pendulum online, compensating for a 50 ms transport delay. For now, we focus on cancelling the steady-state error first using the SNN model as a performance metric.
 - **Architecture:** 9 mossy fibers → 28 granule cells → 2 Purkinje cells (agonist-antagonist).
 - **Learning:** LTD + homeostatic LTP driven by the PID error (climbing fibers).
 - **Key innovation:** Crossed climbing-fiber wiring to prevent the sign-inversion trap.
